@@ -1,11 +1,9 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import App from '../App';
 
 describe('App Component', () => {
   test('renders without crashing', () => {
     render(<App />);
-    const heading = screen.getByRole('heading');
-    expect(heading).toBeInTheDocument();
   });
 });

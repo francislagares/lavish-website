@@ -1,11 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import Navbar from './components/navbar/Navbar';
+
 import './App.css';
 
 const App = (): JSX.Element => {
   return (
-    <div>
-      <h1>Lavish Website</h1>
-    </div>
+    <>
+      <Router>
+        <Switch>
+          <Navbar />
+        </Switch>
+      </Router>
+    </>
   );
 };
 
