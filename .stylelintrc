@@ -1,0 +1,16 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": [
+    "stylelint-a11y",
+    "stylelint-order"
+  ],
+  "rules": {
+    "number-leading-zero": "never",
+    "order/properties-order": [
+      "width",
+      "height",
+      "margin",
+      "padding"
+    ]
+  }
+}
