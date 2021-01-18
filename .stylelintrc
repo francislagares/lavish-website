@@ -10,7 +10,13 @@
       "width",
       "height",
       "margin",
-      "padding"
+      "padding",
+      "color",
+      "text-align",
+      "text-decoration",
+      "font-size",
+      "border",
+      "border-radius"
     ]
   }
 }
