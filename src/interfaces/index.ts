@@ -6,3 +6,16 @@ export interface IButton {
   buttonSize?: string | undefined;
   buttonColor?: string | undefined;
 }
+
+export interface IOptions {
+  lightBg: boolean;
+  topLine: string;
+  lightText: boolean;
+  lightTextDesc: boolean;
+  headline: string;
+  description: string;
+  buttonLabel: string;
+  src: string;
+  alt: string;
+  imgStart: string;
+}

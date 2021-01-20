@@ -6,6 +6,9 @@
   ],
   "rules": {
     "number-leading-zero": "never",
+    "value-keyword-case": ["lower", {
+      "ignoreProperties": ["/^(b|B)ackground$/", "flex-direction"]
+    }],
     "order/properties-order": [
       "width",
       "height",
